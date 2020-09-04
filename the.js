@@ -1,2 +1,7 @@
-document.cookie = "clicked=no";
-console.log(document.cookie);
+function once(){
+	document.cookie = "clicked=yes"
+	location.reload();
+}
+if(document.cookie == "clicked=yes"){
+	document.body.innerHTML = '';
+}

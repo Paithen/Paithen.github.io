@@ -1,4 +1,4 @@
-window.onload = function(){
+document.onload = function(){
 	if(document.cookie == "clicked=yes"){
 		document.body.innerHTML = '';
 	}
